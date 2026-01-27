@@ -1,0 +1,11 @@
+[package]
+name = "jlmath"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4.3"
+serde = { version = "1.0.215", features = ["derive"]}
+serde_with = "3.11.0"
+serde_json = "1.0.133"
+paste = "1.0.15"
